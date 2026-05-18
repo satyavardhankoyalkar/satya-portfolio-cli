@@ -1,0 +1,42 @@
+{
+  "name": "satya-portfolio-cli",
+  "version": "1.0.0",
+  "description": "Generate hacker-style terminal portfolio websites",
+
+  "bin": {
+    "satya-portfolio-cli": "bin/index.js"
+  },
+
+  "type": "module",
+
+  "files": [
+    "bin",
+    "templates"
+  ],
+
+  "keywords": [
+    "portfolio",
+    "terminal",
+    "cli",
+    "developer",
+    "portfolio-generator",
+    "hacker",
+    "resume",
+    "npm"
+  ],
+
+  "license": "MIT",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satyavardhankoyalkar/satya-portfolio-cli"
+  },
+
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "figlet": "^1.11.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.15",
+    "ora": "^8.0.1"
+  }
+}
